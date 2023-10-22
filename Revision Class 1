@@ -1,0 +1,558 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "provenance": [],
+      "authorship_tag": "ABX9TyOwk9StjksHVYtvyXMZmBvv",
+      "include_colab_link": true
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "metadata": {
+        "id": "view-in-github",
+        "colab_type": "text"
+      },
+      "source": [
+        "<a href=\"https://colab.research.google.com/github/11713661ARCHIT/Assignments/blob/main/Revision%20Class%201\" target=\"_parent\"><img src=\"https://colab.research.google.com/assets/colab-badge.svg\" alt=\"Open In Colab\"/></a>"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Python Revision Class **"
+      ],
+      "metadata": {
+        "id": "1mPnoWHEO5wn"
+      }
+    },
+    {
+      "cell_type": "code",
+      "execution_count": 1,
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ua9b6xY2KaWR",
+        "outputId": "3649231d-a1cf-41b0-9707-437f465aca57"
+      },
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Hello PYTHON\n"
+          ]
+        }
+      ],
+      "source": [
+        "print(\"Hello PYTHON\")\n"
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"the turnover of the company is $\", 15)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "km9f3skANXw0",
+        "outputId": "0b16ab08-971f-4ea3-b628-77bf5b962138"
+      },
+      "execution_count": 5,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the turnover of the company is $ 15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"the name of the conpany is fresh Mart\")\n",
+        "print (\"The year of establishment is\", 1983 )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "p6W-L2x_KwIx",
+        "outputId": "4ad87ef3-6280-4ab7-d34b-b00332dd74ac"
+      },
+      "execution_count": 4,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the name of the conpany is fresh Mart\n",
+            "The year of establishment is 1983\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"My name is Archit and i have 2.5 years of experience \")"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "0gDOnGiwNyqG",
+        "outputId": "66e17ce8-fe5c-4ae6-8f08-03398b564783"
+      },
+      "execution_count": 6,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My name is Archit and i have 2.5 years of experience \n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Variables**"
+      ],
+      "metadata": {
+        "id": "fYDVfJpXPX9C"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "company_name= \"Freshmart\"\n",
+        "print (\"The company name is \", company_name)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sxp42SwIOMLb",
+        "outputId": "49525806-ee8e-4c50-f5fe-a505e79d67f8"
+      },
+      "execution_count": 7,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The company name is  Freshmart\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=3\n",
+        "y=5\n",
+        "z=x*y\n",
+        "print(\"the Result is =\", z)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "16U5lzVIOpFj",
+        "outputId": "cbc1859d-2bfe-4ffa-b1cc-b62df489882f"
+      },
+      "execution_count": 8,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "the Result is = 15\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "age=24\n",
+        "print(\"My age is =\", age)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "DkNA28EVO3DH",
+        "outputId": "a6aa345d-1c7e-43a9-a57c-597430049d70"
+      },
+      "execution_count": 9,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "My age is = 24\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**Data** **Types**"
+      ],
+      "metadata": {
+        "id": "6J7psh4gQ_MZ"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "turn=2.4\n",
+        "type(turn)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "WkEdUx-dQ9j7",
+        "outputId": "1215d3e8-e87a-460b-f4c2-a09a7c85383d"
+      },
+      "execution_count": 10,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "float"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 10
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "turn=2\n",
+        "type(turn)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "makp78ZWRfSy",
+        "outputId": "a6334ce1-b926-4a32-e900-140a90e5d866"
+      },
+      "execution_count": 11,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "int"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 11
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "tune=\"Archit Joshi\"\n",
+        "type(tune)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "vg4_uCDcRs10",
+        "outputId": "24277b2e-ca04-4491-c7a7-0291e3eb54aa"
+      },
+      "execution_count": 12,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "str"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 12
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**BINARY OPERATORS**"
+      ],
+      "metadata": {
+        "id": "yjfFyIe5Twj6"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock1=1.2\n",
+        "print(\"Stock1 is =\", stock1)\n",
+        "stock2= stock1 + stock1\n",
+        "print(\"The updated value id stock is =\", stock2)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "SSlpddkcTTnH",
+        "outputId": "d560b874-5715-418c-9308-0b1fb9c15824"
+      },
+      "execution_count": 13,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Stock1 is = 1.2\n",
+            "The updated value id stock is = 2.4\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "down_time=20\n",
+        "tt=200\n",
+        "average_time= down_time/tt\n",
+        "print(\"The average time taken is =\" , average_time)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "LHDxuiu7T3Cz",
+        "outputId": "2a727893-b27a-40c5-efef-adeb919dd7d5"
+      },
+      "execution_count": 15,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The average time taken is = 0.1\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "safety= 20\n",
+        "employee= 234\n",
+        "safety_per_employee= safety / employee\n",
+        "print(\"The saftey of the employee is =\", safety_per_employee)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "lBEWiqB_V4r1",
+        "outputId": "2784a16f-fa02-46e0-d0f9-a5954a3665c4"
+      },
+      "execution_count": 16,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "The saftey of the employee is = 0.08547008547008547\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "**DATA STRUCTURE** list,dictonery, tuple"
+      ],
+      "metadata": {
+        "id": "-tGhsJ8Tb1Ii"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stocks=[\"TV\",\"Laptos\", \"Refrigirator\", \"Mobile\", \"Iphone\"] #list\n",
+        "print(\"Stock=\", stocks)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "-g8O_-6Vbw2S",
+        "outputId": "d57dccf5-6308-48b0-e3a5-8ef5bb9e1450"
+      },
+      "execution_count": 18,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Stock= ['TV', 'Laptos', 'Refrigirator', 'Mobile', 'Iphone']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "x=[\"archit\", 'Joshi', 12, 3.4]\n",
+        "x"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "jOLUD2fbc888",
+        "outputId": "ceb7afb0-efc3-424e-a3cb-20a5c4d86ff3"
+      },
+      "execution_count": 19,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "['archit', 'Joshi', 12, 3.4]"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 19
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock=[\"TV\", \"Mobile\", \"Iphone\"]\n",
+        "amount=[12,23,34]\n",
+        "print(\"Full Stock:\" , stock, amount)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "csS1QsFkeJyj",
+        "outputId": "48b61c72-624f-4d1f-94aa-6db6090204f2"
+      },
+      "execution_count": 20,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Full Stock: ['TV', 'Mobile', 'Iphone'] [12, 23, 34]\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock.remove(\"TV\")\n",
+        "print(stock)\n"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "M9G7Sbb_fWIc",
+        "outputId": "576372b6-7e22-4963-d4ca-3310e88b9a53"
+      },
+      "execution_count": 21,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Mobile', 'Iphone']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock.append(\"Bike\")\n",
+        "print(stock)\n",
+        "\n",
+        "print(stock[0:2])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "ctPn0-8_ff2b",
+        "outputId": "659ec6cb-628f-4bc1-c413-114f6832de3d"
+      },
+      "execution_count": 24,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "['Mobile', 'Iphone', 'Bike', 'Bike', 'Bike']\n",
+            "['Mobile', 'Iphone']\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "stock=[1,2,3,4,5]\n",
+        "\n",
+        "print(stock[0:4])\n",
+        "\n",
+        "print(stock[-3:])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "GyS6mDgti8qs",
+        "outputId": "acc3bce0-89e3-481c-f926-31d0506a3f27"
+      },
+      "execution_count": 34,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "[1, 2, 3, 4]\n",
+            "[3, 4, 5]\n"
+          ]
+        }
+      ]
+    }
+  ]
+}
